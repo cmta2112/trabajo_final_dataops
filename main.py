@@ -8,7 +8,7 @@ extracted_data = extract()  # Llamar a la función extract
 print(extracted_data)  # Imprimir los datos extraídos
 
 # CALCULAR EL PIB CAPITA DE UNA REGIÓN
-continent = 'Asia'  # Indicar el continente que desees
+continent = 'Africa'  # Indicar el continente que desees
 continent_data_sorted = calculate_pib_region(extracted_data, continent)  # Llamar a la función para calcular el pib cápita
 print(f"\nDatos transformados para el continente {continent}:")
 print(continent_data_sorted)
